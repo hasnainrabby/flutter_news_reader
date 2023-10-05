@@ -23,6 +23,7 @@ class SearchField extends ConsumerWidget {
           ]
       ),
       child: TextField(
+
         onChanged: (value) {
           _debouncer.run(() {
             if (value.isNotEmpty) {
@@ -34,7 +35,7 @@ class SearchField extends ConsumerWidget {
         },
         decoration: InputDecoration(
             filled: true,
-            fillColor: Colors.white,
+            fillColor: Colors.black26,
             contentPadding: const EdgeInsets.all(15),
             hintText: 'Search News',
             hintStyle: const TextStyle(
@@ -45,7 +46,7 @@ class SearchField extends ConsumerWidget {
             border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(15),
                 borderSide: BorderSide.none
-            )
+            ),
         ),
       ),
     );
