@@ -16,7 +16,7 @@ class HomePage extends ConsumerWidget {
     bool isLoading = ref.watch(newsProvider).isLoading;
 
     return Scaffold(
-      backgroundColor: const Color(0xffF8F9FD),
+      backgroundColor: Colors.blueGrey,
       body: SafeArea(
           child:
           Column(
