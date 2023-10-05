@@ -37,10 +37,7 @@ The code helps manage and maintain a consistent application state for news-relat
 This is part of a larger state management system that uses Riverpod and Freezed to handle news-related data within a Flutter app.
 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
